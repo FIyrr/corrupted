@@ -1,0 +1,10 @@
+{
+  "parent": "minecraft:block/repeating_command_block",
+  "textures": {
+    "layer0": "minecraft:block/repeating_command_block"
+    },
+    "overrides": [
+    {"predicate": {"custom_model_data":1625}, "model": "item/corrupted_diamond"},
+    {"predicate": {"custom_model_data":1626}, "model": "item/warden_hand"}
+  ]
+}
