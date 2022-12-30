@@ -1,0 +1,30 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:diamond_sword",
+        "nbt": "{CustomModelData:1625}"
+      },
+      "title": "BOOM!",
+      "description": "Obtain an Corrupted Diamond Sword",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "corrupted:visible/corrupted_diamond",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "nbt": "{corrupted.corrupted_diamond_sword:1b}"
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "experience": 20
+    }
+  }
+  

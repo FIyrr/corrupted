@@ -1,0 +1,35 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "weight": 5,
+            "name": "minecraft:sculk"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 100,
+            "name": "minecraft:air"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 10,
+            "name": "minecraft:sculk_vein"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:sculk_sensor"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:sculk_shrieker"
+          }
+        ]
+      }
+    ]
+  }
+  
