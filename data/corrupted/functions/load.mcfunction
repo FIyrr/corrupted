@@ -1,0 +1,10 @@
+scoreboard objectives add corrupted.clear_lock_in_1t dummy
+scoreboard objectives add corrupted.experience_points dummy
+scoreboard objectives add corrupted.experience_levels dummy
+scoreboard objectives add corrupted.raycast dummy
+scoreboard objectives add corrupted.go_in_floor_time dummy
+scoreboard objectives add corrupted.rcd minecraft.used:minecraft.warped_fungus_on_a_stick
+scoreboard objectives add corrupted.broke_carrots minecraft.mined:minecraft.carrots
+scoreboard objectives add corrupted.broke_wheat minecraft.mined:minecraft.wheat
+scoreboard objectives add corrupted.broke_beetroot minecraft.mined:minecraft.beetroots
+scoreboard objectives add corrupted.broke_potato minecraft.mined:minecraft.potatoes

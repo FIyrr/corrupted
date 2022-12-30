@@ -1,0 +1,42 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:leather_chestplate",
+        "nbt": "{Enchantments:[{}],CustomModelData:1625,display:{color:16777214}}"
+      },
+      "title": "Maximal Corruption",
+      "description": "Wear a full set of Corrupted Diamond Armor while having an experience level of 250 or above",
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": true
+    },
+    "parent": "corrupted:visible/corrupted_diamond_armor",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "player": {
+            "equipment": {
+              "head": {
+                "nbt": "{corrupted.corrupted_diamond_helmet:1b,Unbreakable:1b}"
+              },
+              "chest": {
+                "nbt": "{corrupted.corrupted_diamond_chestplate:1b,Unbreakable:1b}"
+              },
+              "feet": {
+                "nbt": "{corrupted.corrupted_diamond_boots:1b,Unbreakable:1b}"
+              },
+              "legs": {
+                "nbt": "{corrupted.corrupted_diamond_leggings:1b,Unbreakable:1b}"
+              }
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "experience": 250
+    }
+  }
+  

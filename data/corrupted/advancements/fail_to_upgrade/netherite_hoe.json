@@ -1,0 +1,21 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:netherite_hoe"
+              ],
+              "nbt": "{corrupted.corrupted_diamond_hoe:1b}"
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "corrupted:fail_to_upgrade"
+    }
+  }
+  

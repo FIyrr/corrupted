@@ -1,0 +1,13 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "corrupted:corrupted_diamond_boots"
+      }
+    }
+  },
+  "rewards": {
+    "function": "corrupted:craft/corrupted_diamond_boots"
+  }
+}

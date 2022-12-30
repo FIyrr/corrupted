@@ -1,0 +1,30 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:repeating_command_block",
+        "nbt": "{CustomModelData:1625}"
+      },
+      "title": "It... Spread!",
+      "description": "Obtain an Corrupted Diamond",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "adventure/kill_mob_near_sculk_catalyst",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "nbt": "{corrupted.corrupted_diamond:1b}"
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "experience": 10
+    }
+  }
+  
