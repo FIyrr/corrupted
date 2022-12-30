@@ -1,2 +1,0 @@
-advancement revoke @s only corrupted:corrupted_diamond_pickaxe_change_durability
-function corrupted:corrupted_diamond_pickaxe/start_raycast
